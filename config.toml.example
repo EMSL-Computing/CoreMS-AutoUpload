@@ -1,0 +1,19 @@
+[settings]
+InstrumentName = "new-and-shiny-massspec"
+API_URI = "http://api.corems-dev.emsl.pnl.gov"
+
+WatchedPath = "d:\\"
+
+ListenPort = 8000
+
+Debug = true
+
+KeepAliveInterval = 10
+
+TransientTimeout = 10
+
+MINIO_URL="https://data.corems-dev.emsl.pnl.gov"
+
+WatchedRegex =  "^(?!x_).*(?:_SRFA).*.(?:raw|d)$"
+
+ShowProgress = true
